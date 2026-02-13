@@ -1,0 +1,226 @@
+import os
+import time
+import random
+import requests
+from flask import Flask, request
+from groq import Groq
+from cs50 import SQL
+
+app = Flask(__name__)
+
+
+# --- CONFIGURATION ---
+VICADE_JID = "2348136390030@s.whatsapp.net" 
+NODE_SEND_URL = "http://127.0.0.1:3000/send"
+# Replace with your actual key
+
+GALLERY_LINK = "https://your-art-collection.com"
+
+SYSTEM_PROMPT = f"""
+You are Kelly, manager of Vicade's Otaku Shop. Created by Vicade.
+Tone: Curt, short, cool. 
+
+WORKFLOW:
+1. Collect: Item type, Art choice (Gallery: {GALLERY_LINK}), and custom specs.
+2. CONFIRM: Before triggering the order, repeat details to the customer. 
+3. TRIGGER: After they confirm, append this exact format to your reply:
+   ORDER_CMD|customer_jid|item_type|art_choice|order_text
+"""
+
+# --- HELPERS ---
+
+def send_msg(jid, message):
+    """Sends message to the Node.js server."""
+    try:
+        requests.post(NODE_SEND_URL, json={"jid": jid, "message": message})
+    except Exception as e:
+        print(f"Error sending message: {e}")
+
+def maintain_memory(username, message, chat_id):
+    """Saves history to DB."""
+    rows = db.execute("SELECT history FROM chat_logs WHERE jid = ?", chat_id)
+    entry = f"{username}: {message}\n"
+    if len(rows) == 0:
+        db.execute("INSERT INTO chat_logs (jid, history) VALUES (?, ?)", chat_id, entry)
+    else:
+        new_history = rows[0]["history"] + entry
+        if len(new_history) > 4000:
+            new_history = new_history[-4000:]
+        db.execute("UPDATE chat_logs SET history = ? WHERE jid = ?", new_history, chat_id)
+
+def get_memory(chat_id):
+    """Gets memory from DB."""
+    rows = db.execute("SELECT history FROM chat_logs WHERE jid = ?", chat_id)
+    if len(rows) == 0:
+        return {"flow": "", "recalls": ""}
+    hist = rows[0]["history"]
+    lines = hist.splitlines()
+    return {
+        "flow": "\n".join(lines[-15:]),
+        "recalls": "\n".join(lines[-40:-15])
+    }
+
+def handle_customer_entry(jid, username):
+    """Welcomes new customers."""
+    rows = db.execute("SELECT * FROM customers WHERE jid = ?", jid)
+    if len(rows) == 0:
+        db.execute("INSERT INTO customers (jid, username) VALUES (?, ?)", jid, username)
+        send_msg(jid, "Yo! I'm Kelly. Welcome to the shop. Pick a wear and check the art gallery to start. 🌸")
+        return False
+    return True
+
+# --- WEBHOOK ---
+
+@app.route('/webhook', methods=['POST'])
+def webhook():
+    data = request.json
+    chat_id = data.get('chatId')
+    text = data.get('text', '')
+    username = data.get('username')
+
+    # 1. VICADE CONFIRMATION LOGIC 👑
+    if "Vicade" in username or chat_id == VICADE_JID:
+        if "confirm" in text.lower():
+            parts = text.split(" ")
+            if len(parts) > 1:
+                order_id = parts[1]
+                res = db.execute("SELECT customer_jid, item_type FROM orders WHERE id = ?", order_id)
+                if len(res) > 0:
+                    cust_jid = res[0]["customer_jid"]
+                    db.execute("UPDATE orders SET status = 'paid' WHERE id = ?", order_id)
+                    send_msg(cust_jid, f"Payment for {res[0]['item_type']} confirmed! We've started production. 🔥")
+                    send_msg(VICADE_JID, f"✅ Order {order_id} verified.")
+            return "OK", 200
+
+    # 2. CUSTOMER LOGIC 🛍️
+    maintain_memory(username, text, chat_id)
+    if not handle_customer_entry(chat_id, username):
+        return "OK", 200
+
+    try:
+        mem = get_memory(chat_id)
+        completion = client.chat.completions.create(
+            model="llama-3.3-70b-versatile",
+            messages=[
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": f"FLOW: {mem['flow']}\n{username}: {text}"}
+            ],
+            max_tokens=150
+        )
+        reply_text = completion.choices[0].message.content
+
+        if "ORDER_CMD" in reply_text:
+            p = reply_text.split("|")
+            # Index 2: Item, 3: Art, 4: Specs
+            oid = db.execute("INSERT INTO orders (customer_jid, item_type, art_choice, order_text) VALUES (?, ?, ?, ?)",
+                             chat_id, p[2], p[3], p[4])
+            
+            clean_reply = reply_text.split("ORDER_CMD")[0].strip()
+            send_msg(chat_id, clean_reply)
+            send_msg(VICADE_JID, f"kelly:request_confirmation {oid}")
+        else:
+            time.sleep(random.uniform(1, 3))
+            send_msg(chat_id, reply_text)
+            maintain_memory("Kelly", reply_text, chat_id)
+
+    except Exception as e:
+        print(f"Error: {e}")
+
+    return "OK", 200
+from flask import render_template_string
+
+@app.route('/gallery')
+def show_gallery():
+    folder_path = "static/gallery"
+    
+    # 1. Organize Folder (Rename to numerical order)
+    if os.path.exists(folder_path):
+        extensions = (".jpg", ".jpeg", ".png", ".webp")
+        files = os.listdir(folder_path)
+        files.sort()
+        
+        count = 1
+        for filename in files:
+            if filename.lower().endswith(extensions):
+                ext = os.path.splitext(filename)[1]
+                new_name = f"art_{count}{ext}"
+                
+                old_full_path = os.path.join(folder_path, filename)
+                new_full_path = os.path.join(folder_path, new_name)
+                
+                # Only rename if necessary and if target doesn't exist
+                if old_full_path != new_full_path:
+                    if not os.path.exists(new_full_path):
+                        os.rename(old_full_path, new_full_path)
+                
+                count = count + 1
+
+    # 2. Generate the Template Data
+    # Get the freshly renamed list
+    current_images = []
+    if os.path.exists(folder_path):
+        for f in os.listdir(folder_path):
+            if f.lower().endswith(extensions):
+                current_images.append(f)
+    current_images.sort()
+
+    # 3. The HTML Template
+    template = """
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Vicade Gallery</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body { background: #1a1a1a; color: white; font-family: sans-serif; text-align: center; }
+            .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; padding: 20px; }
+            .card { background: #2a2a2a; padding: 10px; border-radius: 8px; border: 1px solid #444; }
+            .card img { width: 100%; border-radius: 5px; height: 250px; object-fit: cover; }
+            h2 { color: #ff4757; }
+            .art-id { font-weight: bold; color: #ff4757; display: block; margin-top: 10px; }
+        </style>
+    </head>
+    <body>
+        <h2>Vicade Otaku Shop - Art Gallery</h2>
+        <p>Tell Kelly the ID of the art you want. 🌸</p>
+        <div class="grid">
+            {% for img in images %}
+            <div class="card">
+                <img src="/static/gallery/{{ img }}" alt="Art">
+                <span class="art-id">ID: {{ img.split('.')[0].upper() }}</span>
+            </div>
+            {% endfor %}
+        </div>
+    </body>
+    </html>
+    """
+    
+    return render_template_string(template, images=current_images)
+if __name__ == '__main__':
+    app.run(port=5000)
+
+
+#A block of useless code for later
+# 1. VICADE CONFIRMATION LOGIC 👑
+    if "Vicade" in username or chat_id == VICADE_JID:
+        if "confirm" in text.lower():
+            parts = text.split(" ")
+            if len(parts) > 1:
+                order_id = parts[1]
+                res = db.execute("SELECT customer_jid, item_type FROM orders WHERE id = ?", order_id)
+                if len(res) > 0:
+                    cust_jid = res[0]["customer_jid"]
+                    db.execute("UPDATE orders SET status = 'paid' WHERE id = ?", order_id)
+                    send_msg(cust_jid, f"Payment for {res[0]['item_type']} confirmed! We've started production. 🔥")
+                    send_msg(VICADE_JID, f"✅ Order {order_id} verified.")
+            return "OK", 200
+
+#Grok reply fetching block
+completion = client.chat.completions.create(
+            model="llama-3.3-70b-versatile",
+            messages=[
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": f"FLOW: {mem['flow']}\n{username}: {text}"}
+            ],
+            max_tokens=150
+        )

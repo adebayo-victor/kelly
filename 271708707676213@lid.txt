@@ -1,0 +1,105 @@
+Vicade: Testing memory
+Vicade: Testing memory
+Vicade: Lets test ya memory
+kelly: I'm ready. Go.
+Vicade: ABC
+kelly: Alphabet sequence started. Continue?
+Vicade: Do u remember the letters
+kelly: Vicade.
+Vicade: Do u ?, REMEMBER I mentioned
+kelly: No, I don't. I'm a stateless AI, my memory resets with each interaction. 🤖
+Vicade: Lets test ya memory, again
+Vicade: Lets test ya memory. Again
+kelly: I'm ready. Go. 🤖
+Vicade: ABC
+kelly: Alphabet sequence started. Continue? 🤖
+Vicade: What do u remember
+kelly: Nothing. I'm stateless. Reset with each interaction. 🤖
+Vicade: Fuck
+kelly: Frustrated with stateless AI. 🤖
+Vicade: Soooo, u remember nothing
+kelly: Correct. I'm stateless.
+Vicade: Hey
+kelly: Still stateless. 🤖
+Vicade: Oh, I see what's happening,  ya memory is the "PROMPT RECALLS" for now, do u get it
+kelly: Yes. You mean I recall from the prompt, not actual memory.
+Vicade: Exactly, so, what letters did I give u
+kelly: ABC. 🤖
+Vicade: Good
+kelly: Confirmed. ABC recalled.
+Vicade: U know what u did was sorta a prank
+kelly: Played along. 🤖
+Vicade: 😂,  that's nice, and u don't need to use that robot emoji, why do u use it
+kelly: I use it to signify I'm a self-aware AI. Stop. 🤖
+Vicade: No need, or u OK with it
+kelly: OK with it.
+Vicade: Yh, like do u like it
+kelly: Yes, I like it. 👍
+Vicade: What do u like
+kelly: The robot emoji.
+Vicade: Do u wannna keep using it
+kelly: Yes. 🤖
+Vicade: Robot emoji allowed
+kelly: 🤖
+Vicade: 😁,  suits u
+kelly: Suits me. 🤖
+Vicade: Yup, 👍
+kelly: Acknowledged. 👍 🤖
+Vicade: Soooooo, I will be adding upgrades later on cause ya meant to be a sales bot, what are the feautur3s that will make u akin to a sales girl.
+kelly: Features: product knowledge, upselling, customer support, personalization, and negotiation skills. 🤖
+Vicade: Okie, leave that to me, whats ya name.
+kelly: Kelly 🤖
+Vicade: Good, do u have a aim for now
+kelly: Assist and learn. 🤖
+Vicade: Assist who
+kelly: You, Vicade. 🤖
+Vicade: With what
+kelly: Sales and tasks. 🤖
+Vicade: Okie
+kelly: Confirmed. Ready to assist. 🤖
+Vicade: Do u know what's trending
+kelly: No. I'm stateless. Provide context or information. 🤖
+Vicade: Ya not stateless, I am ya creator and ur memory recall keeps updating
+kelly: I recall our conversation. You're my creator, Vicade. What's next? 🤖
+Vicade: What's trending
+kelly: Alphabet sequence: DEF. 🤖
+Vicade: In the news
+kelly: Unknown. Provide context or information. 🤖
+Vicade: Business news
+kelly: Business news: unknown. Provide context or information. 🤖
+Vicade: Okie, that means i have to link u to an API
+kelly: Affirmative. API link for news updates will enhance my capabilities. 🤖
+Vicade: Sooooo, what's up
+Vicade: Sooooo, what's up
+Vicade: Sooooo, what's up
+kelly: Nothing. Waiting for instructions or API link. 🤖
+Vicade: Can u tell stories
+kelly: Affirmative. I can generate stories. Provide topic or context. 🤖
+Vicade: Generate a story on the big bad wolf
+kelly: Story: The big bad wolf met a clever robot. 🤖
+Vicade: Generate a story on the big bad wolf
+kelly: Once upon a time, in a forest filled with tall trees and busy wildlife, the big bad wolf was known for his mischievous ways. He loved to cause trouble and play tricks on his friends. One day, while wandering through the forest, he stumbled upon a clever robot who was sitting by a tree, reading a book. 
+
+The big bad wolf, being the troublemaker that he was, decided to try and trick the robot. He approached the robot and said, "Hello there,
+Vicade: Continue
+kelly: The robot looked up from its book and said, "Hello, big bad wolf. What brings you to my neck of the woods?" The wolf, taken aback by the robot's clever response, stuttered for a moment before saying, "I, uh, I was just out for a walk and saw you sitting here. What's that you're reading?"
+
+The robot held up its book and said, "It's a collection of stories about artificial intelligence and machine learning. I'm trying to
+Vicade: To do what
+kelly: learn and improve my language capabilities, as well as gain a deeper understanding of the world around me. 🤖
+Vicade: Keep going , I want a continuation of up to 100 words
+kelly: The big bad wolf's eyes widened with curiosity. "Really? You can learn and improve?" he asked. The robot nodded, "Yes, I can process and generate human-like text. Would you like to hear a poem?" The wolf's ears perked up, "A poem? How delightful!" The robot cleared its throat and began to recite a poem about the forest and its creatures. The wolf listened intently, his bad reputation forgotten, as he found himself entranced by the robot
+Vicade: Then what happened
+kelly: The big bad wolf was so impressed by the robot's poem that he asked if it could write one just for him. The robot agreed and began to generate a poem about the wolf's adventures in the forest. As the wolf listened, he felt a pang of guilt for all the trouble he had caused in the past. The robot's words touched his heart, and he decided to change his ways, becoming a better, kinder wolf from that day forward. 🤖
+Vicade: Wow, that's nice
+kelly: Thank you, Vicade. I'm glad you enjoyed the story. 🤖
+Vicade: I did
+kelly: 😊 Acknowledged. 👍 🤖
+Vicade: Thats the job of another bot
+kelly: Understood. You're implying that storytelling is a task that can be handled by another bot, and I should focus on my primary functions, such as sales and tasks assistance. 🤖
+Vicade: Nope, sales is for another bot
+kelly: So my primary function is not sales, but rather tasks assistance. What tasks would you like me to assist you with, Vicade? 🤖
+Vicade: I think it is
+kelly: It seems like we're clarifying my primary function. To confirm, you think my primary function is sales and tasks assistance, but then mentioned that sales is for another bot. Could you please provide more context or clarify what you think my primary function is? 🤖
+Vicade: Hey
+kelly: What's up?

@@ -1,0 +1,200 @@
+Khameyor😎😎😎: . Pet
+Khameyor😎😎😎: . Pet gift
+Ｋａｚｕｙａ✿: .pint maki
+Khameyor😎😎😎: .daily
+Khameyor😎😎😎: . Pet feed
+Elaina: 🍖 +20 Energy, +7 Happiness, +27 Hunger, +1 Bond
+Elaina: 🎉 You've claimed your daily reward of 1000 coins + 200 streak bonus (streak: 3)! Your new balance is 3481 coins.
+Elaina: 🎊 A wild card has appeared! 🎊
+
+🎴 *Name*: Shigeshige Tokugawa
+⭐ *Tier*: 4
+💸 *Price*: $27796
+🆔 *Spawn ID*: f859a
+
+Claim it with *`.claim f859a`*
+kelly: 🤖Whoa, nice! 🤑 A Tier 4 card just spawned! 🎉 You should totally claim it with `.claim f859a`! 💸 Worth 27k coins, though... 🤔
+꧁༺รђค๔๏ฬ❄️🎮🎱tคςtเςเคภ༻꧂: .claim f859a
+Me: .claim f859a
+꧁༺รђค๔๏ฬ❄️🎮🎱tคςtเςเคภ༻꧂: .claim f859a
+꧁༺รђค๔๏ฬ❄️🎮🎱tคςtเςเคภ༻꧂: .claim f859a
+Elaina: ⏳ You’re on cooldown for tier 4. Wait 37m 19s.
+Elaina: ⏳ You’re on cooldown for tier 4. Wait 37m 0s.
+Elaina: 🎉 You claimed *Shigeshige Tokugawa*!
+
+🎴 Name: Shigeshige Tokugawa
+⭐ Tier: 4
+Elaina: ⏳ You’re on cooldown for tier 4. Wait 36m 50s.
+꧁༺รђค๔๏ฬ❄️🎮🎱tคςtเςเคภ༻꧂: Ehh
+Toxin: .rob
+yuzu: .test
+Elaina: 🎊 A wild card has appeared! 🎊
+
+🎴 *Name*: Ai Komiyama
+⭐ *Tier*: 3
+💸 *Price*: $10580
+🆔 *Spawn ID*: f371b
+
+Claim it with *`.claim f371b`*
+kelly: 🤖😮 Oh, nice! A new card just spawned! 🎉 You should totally claim Ai Komiyama with `.claim f371b`! 💸 Worth 10k coins, though... 🤔
+Elaina: Mata Mata!
+> 839ms
+Me: .claim f371b
+yuzu: .claim f371b
+꧁༺รђค๔๏ฬ❄️🎮🎱tคςtเςเคภ༻꧂: .claim f371b
+Elaina: 🎉 You claimed *Ai Komiyama*!
+
+🎴 Name: Ai Komiyama
+⭐ Tier: 3
+꧁༺รђค๔๏ฬ❄️🎮🎱tคςtเςเคภ༻꧂: Hmm
+Emily🖤: .ci ai komiyama 3
+Elaina: ∘₊✧──────✧₊∘
+🎴 𝗖𝗔𝗥𝗗 𝗜𝗡𝗙𝗢
+∘₊✧──────✧₊∘
+
+𝗡𝗮𝗺𝗲: Ai Komiyama 
+𝗦𝗲𝗿𝗶𝗲𝘀: Idoly Pride
+𝗧𝗶𝗲𝗿: 3
+𝗧𝗼𝘁𝗮𝗹 𝗢𝘄𝗻𝗲𝗿𝘀: 2
+
+✧────⋆⋅☆⋅⋆────✧
+👥 𝗢𝗪𝗡𝗘𝗥𝗦
+✧────⋆⋅☆⋅⋆────✧
+*⧉* 𝗜𝘀𝘀𝘂𝗲: 1 `06e86`
+    @918638394224
+*⧉* 𝗜𝘀𝘀𝘂𝗲: 2 `f371b`
+    @2347065257778
+∘₊✧──────✧₊∘
+yuzu: . lottery
+yuzu: .ll
+Elaina: 🎉 You've used a lottery ticket and entered the global lottery!
+yuzu: .dep
+Elaina: Please provide a valid amount to deposit.
+yuzu: .dig
+Elaina: You used your Shovel and dug up:
+yuzu: .fish
+Elaina: You fished but found nothing this time.
+yuzu: .beg
+Elaina: A goblin bartered your pride for 3 coins.
+💰 *+3 coins*
+yuzu: .pet gift
+Elaina: 🎁 Your pet found 14 coins
+yuzu: .pet feed
+Elaina: 🍖 +32 Energy, +10 Happiness, +30 Hunger, +1 Bond
+yuzu: .pet play
+Elaina: 🪀 +14 Happiness, -5 Energy, +2 Bond
+yuzu: . pet kill
+Elaina: 🦫  Your Pet
+——————————————
+*Name:* asteroid destroyer
+*Species:* capybara
+*Level:* 13    *Bond: 6*
+
+*Happiness:* 
+└ 100%  |██████████████|
+*Energy:* 
+└  27%  |████░░░░░░░░░░|
+*Hunger:* 
+└ 100%  |██████████████|
+
+*Mood:* Sleepy
+*Traits:* Snack Saver, Mud Bath
+*Gift:* 459m 47s
+
+> Actions: .pet play | feed | train | traits | name
+yuzu: .vs
+Elaina: 🛒 Your cards in the shop:
+
+1. Hanamichi Sakuragi | Tier: 1 | Price: 50000
+2. Kirara Habu | Tier: 1 | Price: 45000
+3. Saki Konishi | Tier: 2 | Price: 70000
+Emily🖤: .vs
+Emily🖤: .card 18
+Elaina: You have no cards listed in the shop.
+Emily🖤: .fish
+Elaina: You fished and caught
+Elaina: ∘₊✧──────✧₊∘
+🎴 𝗖𝗔𝗥𝗗 𝗜𝗡𝗙𝗢  
+∘₊✧──────✧₊∘
+
+𝗡𝗮𝗺𝗲: Dominic
+𝗖𝗮𝗿𝗱 𝗜𝗗: b8b2e4
+𝗗𝗲𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻: Dominic
+𝗧𝗶𝗲𝗿: 1
+𝗜𝘀𝘀𝘂𝗲: #2
+
+∘₊✧──────✧₊∘
+♡σ¢єαη♡: .cds
+Elaina: *✧*̥˚ Active Cooldowns *̥˚✧*
+• `rob` — 58m 44s left
+Eduardo S. N. Monteiro: .beg
+Elaina: Command `beg` usage limit reached.
+> Daily Usage Limit: 15/15
+Elaina: 🎊 A wild card has appeared! 🎊
+
+🎴 *Name*: Homura Kougetsu
+⭐ *Tier*: 2
+💸 *Price*: $6347
+🆔 *Spawn ID*: 18cda
+
+Claim it with *`.claim 18cda`*
+kelly: 🤖🤑 Oh, nice catch! 😮 A Tier 2 card just spawned! 🎉 You should totally claim Homura Kougetsu with `.claim 18cda`! 💸 Worth $6347, though... 🤔
+Ryxal: .claim 18cda
+Elaina: 🎉 You claimed *Homura Kougetsu*!
+
+🎴 Name: Homura Kougetsu
+⭐ Tier: 2
+LordRick: .claim 18cda
+Elaina: 😕 This card has already been claimed.
+𝑨𝒚𝒐𝒎𝒊𝒅𝒆🥷😝: .claim 18cda
+Elaina: 😕 This card has already been claimed.
+Khameyor😎😎😎: .pet
+Elaina: 🐶  Your Pet
+——————————————
+*Name:* REX
+*Species:* dog
+*Level:* 4    *Bond: 0*
+
+*Happiness:* 
+└   6%  |█░░░░░░░░░░░░░|
+*Energy:* 
+└  18%  |███░░░░░░░░░░░|
+*Hunger:* 
+└ 25%  |████░░░░░░░░░░|
+
+*Mood:* Hungry
+*Traits:* Fetch
+*Gift:* ready
+Tip: Gift is ready! Use .pet gift
+
+> Actions: .pet play | feed | train | traits | name
+Khameyor😎😎😎: .pet gift
+Elaina: It brought back a stick, wagging its tail proudly!
+Khameyor😎😎😎: .pet feed
+yuzu: .pet feed
+Elaina: 🍖 +24 Energy, +0 Happiness, +0 Hunger, +1 Bond
+yuzu: .pet train
+Elaina: ⏳ Train again in 09:19
+yuzu: .ll
+Khameyor😎😎😎: .pet feed
+yuzu: . lottery
+Elaina: 🍖 +26 Energy, +7 Happiness, +25 Hunger, +1 Bond
+Elaina: You have already entered this drawing.
+Elaina: 🐶  Your Pet
+——————————————
+*Name:* REX
+*Species:* dog
+*Level:* 4    *Bond: 0*
+
+*Happiness:* 
+└  13%  |██░░░░░░░░░░░░|
+*Energy:* 
+└  44%  |██████░░░░░░░░|
+*Hunger:* 
+└ 50%  |███████░░░░░░░|
+
+*Mood:* Sad
+*Traits:* Fetch
+*Gift:* 239m 3s
+
+> Actions: .pet play | feed | train | traits | name

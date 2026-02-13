@@ -1,0 +1,200 @@
+• Amount due: 165000
+• Due date: Mon Feb 16 2026
+> You have 7 days to repay the loan.⏳ 7 day(s) remaining.
+𝐒𝐊𝐈: .loan
+Frieren: 💸 *Loan Command Usage*
+• *`.loan request <amount> <card index>`* — Request a loan.
+• *`.loan repay`* — Repay your current loan.
+• *`.loan status`* — Check your active loan details.
+
+🔒 You need to stake a card of the matching tier to request up to its maximum loan amount.
+
+*Per-Tier Maximums* 
+• Tier 1: up to 10K | 5% interest over 1 day(s)
+• Tier 2: up to 25K | 6% interest over 2 day(s)
+• Tier 3: up to 60K | 8% interest over 3 day(s)
+• Tier 4: up to 150K | 10% interest over 7 day(s)
+• Tier 5: up to 350K | 12% interest over 10 day(s)
+• Tier 6: up to 800K | 13% interest over 12 day(s)
+• Tier S: up to 1.5M | 15% interest over 21 day(s)
+𝐒𝐊𝐈: .tier s
+Frieren: Your card collection is empty! Start collecting cards to display them here.
+𝚃𝚊𝚍𝚊𝚗𝚘 𝙷𝚒𝚝𝚘𝚑𝚒𝚝𝚘: New player
+𝐒𝐊𝐈: .casino 2000
+Frieren: Command `casino` is still on cooldown. Please wait *42 second(s)*.
+> Daily Usage Limit: 4/15
+Unknown Recruit: Command `casino` is still on cooldown. Please wait *42 second(s)*.
+> Daily Usage Limit: 4/15
+༒ᚚ🇩 🇪 🇲 🇮᚛࿈᚜ 🇬 🇴 🇩༒: Have no idea what u're talking about
+𝐒𝐊𝐈: .casino 2000
+Frieren: 😢 You lost 2000 coins. Better luck next time!
+𝐒𝐊𝐈: .rob
+༒ᚚ🇩 🇪 🇲 🇮᚛࿈᚜ 🇬 🇴 🇩༒: 🫩
+~ 🎀: Can't rob in gambling gc
+~ 🎀: .cds
+Frieren: All cooldowns are ready 🔥
+Hamid: . casino 100000
+Frieren: 😢 You lost 100000 coins. Better luck next time!
+Frieren: 🏦 *Bank*: $38,694
+🪙 *Wallet*: $20,000
+        
+🌑🪐🧠💭✨: .fish
+Frieren: You fished but found nothing this time.
+🌑🪐🧠💭✨: .dig
+Frieren: You found a rare Bank Note! Your bank capacity has increased by 1000.
+~ 🎀: .dig
+Frieren: You used your Shovel but found nothing this time!
+~ 🎀: .fish
+~ 🎀: .beg
+Frieren: You fished but found nothing this time.
+༒ᚚ🇩 🇪 🇲 🇮᚛࿈᚜ 🇬 🇴 🇩༒: .dig
+Frieren: You used your Shovel and... wait... you found a corpse?! Better leave it alone! 😱
+༒ᚚ🇩 🇪 🇲 🇮᚛࿈᚜ 🇬 🇴 🇩༒: .fish
+kelly: 🤖😂 You fished but found nothing this time. Again. 🎣💦
+Frieren: 🎣 You fished and caught:
+༒ᚚ🇩 🇪 🇲 🇮᚛࿈᚜ 🇬 🇴 🇩༒: .beg
+༒ᚚ🇩 🇪 🇲 🇮᚛࿈᚜ 🇬 🇴 🇩༒: Haha very funny 🫩
+Frieren: You sold a terrible joke for 15 coins. Please stop.
+💰 *+15 coins*
+kelly: 🤖😂 hey, someone's having a rough day 🤣. lost a bunch of coins, huh? 😅 what's going on? 😁
+༺ 𝙋.𝙃.𝙄.𝙇.𝙇.𝙄.𝙋 ༻☆: no no it's still here
+Frieren: Welcome to the group, @66525050454106! We hope you enjoy your stay. Don't forget to introduce yourself.
+🫧🦢: .cds
+Frieren: All cooldowns are ready 🔥
+🫧🦢: .invite
+Frieren: https://chat.whatsapp.com/C4cShZdabqfFkv8CVc3dxm
+Frieren: ⏳ You've already claimed your daily reward! Come back in 4h 34m 11s.
+Frieren: 🍖 +23 Energy, +9 Happiness, +30 Hunger, +1 Bond
+Frieren: 📘 +21 XP  -15 Energy, -5 Happiness
+Frieren: 🪀 +16 Happiness, -7 Energy, +1 Bond
+Frieren: Command `casino` usage limit reached.
+> Daily Usage Limit: 15/15
+Frieren: A merchant said “charity case” and slid you 12 coins.
+💰 *+12 coins*
+Unknown Recruit: .daily
+Unknown Recruit: .pet train
+Unknown Recruit: .pet play
+Unknown Recruit: .casino 10000
+Unknown Recruit: .beg
+Frieren: You fished but found nothing this time.
+Frieren: ⏳ You've already claimed your daily reward! Come back in 4h 34m 11s.
+Frieren: A merchant said “charity case” and slid you 12 coins.
+💰 *+12 coins*
+Frieren: 🍖 +23 Energy, +9 Happiness, +30 Hunger, +1 Bond
+Frieren: 📘 +21 XP  -15 Energy, -5 Happiness
+Frieren: 🪀 +16 Happiness, -7 Energy, +1 Bond
+Frieren: Command `casino` usage limit reached.
+> Daily Usage Limit: 15/15
+Frieren: Command `cf` usage limit reached.
+> Daily Usage Limit: 15/15
+Frieren: You used your Shovel and... wait... you found a corpse?! Better leave it alone! 😱
+Frieren: Command `cf` usage limit reached.
+> Daily Usage Limit: 15/15
+Frieren: You fished but found nothing this time.
+Unknown Recruit: .cf tails 5000
+Unknown Recruit: .cf heads 10000
+Unknown Recruit: .cf tails 5000
+Unknown Recruit: .cf heads 10000
+Frieren: Welcome to the group, @26934427816036! We hope you enjoy your stay. Don't forget to introduce yourself.
+Kosice: . casino 100000
+🌑🪐🧠💭✨: .fish
+🌑🪐🧠💭✨: .dig
+Frieren: 🎉 You won 200000 coins!
+Frieren: You used your Shovel but found nothing this time!
+Frieren: 🎣 You fished and caught:
+Kosice: . casino 200000
+Frieren: Command `casino` is still on cooldown. Please wait *4 minute(s) 34 second(s)*.
+> Daily Usage Limit: 9/15
+Kosice: .slots 200000
+Frieren: 🎰 Final result: [7️⃣][🍉][🍒]
+😢 You lost. Better luck next time!
+Kosice: . bal
+Frieren: 🎴 ACCOUNT BALANCE
+━━━━━━━━━━━━━━━━━
+💰 𝗪𝗮𝗹𝗹𝗲𝘁: 〘 ```$150,270``` 〙
+🏦 𝗕𝗮𝗻𝗸: 〘 ```$1,000``` 〙
+🌌 𝗠𝗮𝘅 𝗖𝗮𝗽𝗮𝗰𝗶𝘁𝘆: 〘 ```$1K``` 〙
+
+💠 𝗧𝗼𝘁𝗮𝗹: 〘 ```$151,270``` 〙
+━━━━━━━━━━━━━━━━━
+Kosice: .slot 50000
+♡σ¢єαη♡: .wd 200000
+Ademi🥹🥰: .casino 1300000
+Frieren: 😢 You lost 1300000 coins. Better luck next time!
+♡σ¢єαη♡: W
+♡σ¢єαη♡: Damn
+Mr Fool: .p
+Frieren: ╭━━━★彡 ℙℝ𝕆𝔽𝕀𝕃𝔼 彡★━━━╮
+Visit this link to customise your profile and frames:
+https://rimuruslime.com/profile/2349036008963
+
+ꕥ 𝗡𝗮𝗺𝗲: Ademide
+ꕥ 𝗔𝗴𝗲: 19
+ꕥ 𝗕𝗶𝗼: N/A
+ꕥ 𝗥𝗲𝗴𝗶𝘀𝘁𝗲𝗿𝗲𝗱: Yes
+ꕥ 𝗥𝗼𝗹𝗲: user
+ꕥ 𝗚𝘂𝗶𝗹𝗱: N/A
+
+ꕥ 𝗕𝗮𝗻𝗻𝗲𝗱: No
+♡σ¢єαη♡: .wd 200000
+Mr Fool: Aaaahhhhhhh🥲🥲🥲🥲
+♡σ¢єαη♡: .db 200000
+Mr Fool: Loss🤦‍♂️🤦‍♂️🤦‍♂️
+Frieren: 🏦 *Bank*: $840,172
+🪙 *Wallet*: $200,000
+        
+♡σ¢єαη♡: .db 200000
+Frieren: 🎲 You: [⚄]
+🎲 Rimuru: [⚁]
+🎉 You win! +400000 coins!
+♡σ¢єαη♡: .dep
+Frieren: 🏦 *Bank*: $1,240,172
+🪙 *Wallet*: $0
+        
+biju: .db 10000
+Frieren: 🎲 You: [⚅]
+🎲 Rimuru: [⚀]
+🎉 You win! +20000 coins!
+♡σ¢єαη♡: .wd 40000
+Frieren: 🏦 *Bank*: $1,200,172
+🪙 *Wallet*: $40,000
+        
+♡σ¢єαη♡: .cf tails 40000
+Frieren: Command `cf` usage limit reached.
+> Daily Usage Limit: 15/15
+Kosice: .slots 50000
+Frieren: 🎰 Final result: [🍋][💎][💎]
+🎉 You won 100000 coins!
+♡σ¢єαη♡: . daily
+Frieren: ⏳ You've already claimed your daily reward! Come back in 4h 16m 24s.
+Frieren: 🏦 *Bank*: $1,000,172
+🪙 *Wallet*: $240,000
+        
+Mr Fool: Uhm...    🥲
+             👉👈
+Frieren: 🎲 You: [⚃]
+🎲 Rimuru: [⚀]
+🎉 You win! +400000 coins!
+😈👑🏆Ҝ丨几Ꮆ 爪卂ᐯ丨匚 😈👑🏆: .casino 300000
+Frieren: 🎉 You won 600000 coins!
+♡σ¢єαη♡: Wtff
+😈👑🏆Ҝ丨几Ꮆ 爪卂ᐯ丨匚 😈👑🏆: Yesssssss
+CERTIFIED HATER: .casino 10000
+Frieren: 🎉 You won 20000 coins!
+Kosice: .slots 100000
+Frieren: 🎰 Final result: [🍋][7️⃣][🍇]
+😢 You lost. Better luck next time!
+Mr Fool: Pls donate 50k
+Kosice: .bal
+Frieren: 🎴 ACCOUNT BALANCE
+━━━━━━━━━━━━━━━━━
+💰 𝗪𝗮𝗹𝗹𝗲𝘁: 〘 ```$100,270``` 〙
+🏦 𝗕𝗮𝗻𝗸: 〘 ```$1,000``` 〙
+🌌 𝗠𝗮𝘅 𝗖𝗮𝗽𝗮𝗰𝗶𝘁𝘆: 〘 ```$1K``` 〙
+
+💠 𝗧𝗼𝘁𝗮𝗹: 〘 ```$101,270``` 〙
+━━━━━━━━━━━━━━━━━
+Kosice: . Slots 100000
+Frieren: 🎰 Final result: [7️⃣][🍉][🍇]
+😢 You lost. Better luck next time!
+Kosice: Okay
