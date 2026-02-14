@@ -22,7 +22,7 @@ def open_dev_files():
     
     try:
         # 1. Run Node.js script with the node engine
-        subprocess.Popen(["node", "index.js"])
+        #subprocess.Popen(["node", "index.js"])
         
         # 2. Run the DB Admin with the python engine
         subprocess.Popen(["python", "dbAdmin.py"])
@@ -46,7 +46,7 @@ VICADE_JID = "2348136390030@s.whatsapp.net"
 NODE_SEND_URL = "http://127.0.0.1:3000/send"
 # Replace with your actual key
 client = Groq(api_key=os.environ.get("groq_api_key")) 
-GALLERY_LINK = "https://1rz8xqsb-5000.uks1.devtunnels.ms/gallery"
+GALLERY_LINK = "https://kelly-pvd2.onrender.com/gallery"
 
 SYSTEM_PROMPT = f"""
 You are Kelly, the high-energy, Surgically Direct curator for Vicade’s Techlite gear. You don't 'customer service' people; you direct them. 🌸
