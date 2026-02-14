@@ -382,5 +382,4 @@ def show_gallery():
     </html>
     """, images=current_images)
 if __name__ == '__main__':
-    open_dev_files()
     app.run(port=5000)
